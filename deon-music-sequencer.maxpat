@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"patching_rect" : [ 196.0, 135.7431640625, 82.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 623.75, 42.5, 234.0, 25.0 ],
-					"text" : "d'Eon Music Sequencerr",
+					"text" : "d'Eon Music Sequencer",
 					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ],
 					"textjustification" : 1
 				}
