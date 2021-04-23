@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ 46.0, 86.0, 1455.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,51 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-401",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2784.818168997764587, 1158.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.0, 713.0, 18.0, 20.0 ],
+					"text" : "D",
+					"textcolor" : [ 0.874509803921569, 0.329411764705882, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-399",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2769.818168997764587, 1143.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.0, 500.0, 18.0, 20.0 ],
+					"text" : "C",
+					"textcolor" : [ 0.874509803921569, 0.329411764705882, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-384",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2754.818168997764587, 1128.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.0, 285.0, 18.0, 20.0 ],
+					"text" : "B",
+					"textcolor" : [ 0.874509803921569, 0.329411764705882, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubbleusescolors" : 1,
 					"id" : "obj-314",
 					"linecount" : 2,
@@ -48,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 88.25, 817.2568359375, 52.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 103.0, 158.0, 65.25, 20.0 ],
+					"presentation_rect" : [ 103.0, 166.654708474874496, 65.25, 20.0 ],
 					"text" : "MIDI ch:",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -63,7 +108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1243.0, 852.2568359375, 52.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 753.0, 35.25, 20.0 ],
+					"presentation_rect" : [ 119.0, 761.654708474874496, 35.25, 20.0 ],
 					"text" : "ch 7",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -78,7 +123,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 857.0, 852.2568359375, 52.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 541.0, 35.25, 20.0 ],
+					"presentation_rect" : [ 119.0, 549.654708474874496, 35.25, 20.0 ],
 					"text" : "ch 6",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -93,7 +138,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 852.2568359375, 52.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 326.0, 35.25, 20.0 ],
+					"presentation_rect" : [ 119.0, 334.654708474874496, 35.25, 20.0 ],
 					"text" : "ch 5",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1119,7 +1164,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 425.981481432914734, 753.0, 39.0, 20.0 ],
 					"text" : "clear",
-					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ]
+					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -1159,7 +1205,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 425.981481432914734, 541.0, 39.0, 20.0 ],
 					"text" : "clear",
-					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ]
+					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -1199,7 +1246,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 425.981481432914734, 326.0, 39.0, 20.0 ],
 					"text" : "clear",
-					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ]
+					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -1307,7 +1355,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 425.981481432914734, 158.0, 39.0, 20.0 ],
 					"text" : "clear",
-					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ]
+					"textcolor" : [ 1.0, 0.937254901960784, 0.737254901960784, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -1371,7 +1420,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2739.818168997764587, 1113.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1183.879392087459564, 317.518521189689636, 18.0, 20.0 ],
+					"presentation_rect" : [ 1183.879392087459564, 316.0, 18.0, 20.0 ],
 					"text" : "B",
 					"textcolor" : [ 0.874509803921569, 0.329411764705882, 1.0, 1.0 ]
 				}
@@ -1393,13 +1442,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-400",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2709.818168997764587, 1083.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.487784147262573, 136.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 122.0, 117.0, 18.0, 20.0 ],
 					"text" : "A",
 					"textcolor" : [ 0.874509803921569, 0.329411764705882, 1.0, 1.0 ]
 				}
@@ -2304,7 +2354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2410.511184871196747, 1089.7431640625, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 815.555530786514282, 24.5, 20.0 ],
+					"presentation_rect" : [ 63.0, 813.0, 24.5, 20.0 ],
 					"text" : "13",
 					"textcolor" : [ 0.0, 0.847058823529412, 0.219607843137255, 1.0 ]
 				}
@@ -2346,7 +2396,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2520.737810373306274, 1223.121974945068359, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 599.0, 24.5, 20.0 ],
+					"presentation_rect" : [ 63.0, 600.0, 24.5, 20.0 ],
 					"text" : "10",
 					"textcolor" : [ 0.0, 0.847058823529412, 0.219607843137255, 1.0 ]
 				}
@@ -5366,7 +5416,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 351.0, 59.0, 20.0 ],
 					"text" : "rand step",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -5670,7 +5721,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 811.0, 59.0, 20.0 ],
 					"text" : "rand dir",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -5760,7 +5812,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 600.0, 59.0, 20.0 ],
 					"text" : "rand dir",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -5850,7 +5903,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 383.0, 59.0, 20.0 ],
 					"text" : "rand dir",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -6530,7 +6584,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 567.0, 60.0, 20.0 ],
 					"text" : "rand step",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -6546,7 +6601,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -13.5, 843.0, 75.0, 20.0 ],
 					"text" : "rand octave ",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -6562,7 +6618,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -12.5, 633.0, 75.0, 20.0 ],
 					"text" : "rand octave ",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -6578,7 +6635,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 781.0, 59.0, 20.0 ],
 					"text" : "rand step",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
@@ -7451,7 +7509,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -12.5, 415.0, 75.0, 20.0 ],
 					"text" : "rand octave ",
-					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ]
+					"textcolor" : [ 1.0, 0.905882352941176, 0.76078431372549, 1.0 ],
+					"textjustification" : 2
 				}
 
 			}
